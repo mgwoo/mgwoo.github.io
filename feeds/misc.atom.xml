@@ -12,57 +12,59 @@
 &lt;li&gt;Computer Technicaian Soldier in Republic of Korea Air Force (May. 2012 - May. 2014)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Interest&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Current&lt;ul&gt;
-&lt;li&gt;Circuit Physical Design, Design Automation, Machine learning&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Old&lt;ul&gt;
-&lt;li&gt;Computer Security, Web Programming&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;h4&gt;Current&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Circuit Physical Design, Design Automation, Machine learning&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;Old&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Computer Security, Web Programming&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;Publication&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Conference&lt;ul&gt;
-&lt;li&gt;M. Woo, S. Kim and S. Kang, "GRASP based Metaheuristics for Layout Pattern Classification", Proc. IEEE/ACM International Conference on Computer-Aided Design, 2017. (to appear)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;h4&gt;Conference&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;* M. Woo, S. Kim and S. Kang, &amp;quot;GRASP based Metaheuristics for Layout Pattern Classification&amp;quot;, Proc. IEEE/ACM International Conference on Computer-Aided Design, 2017. (to appear)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/blockquote&gt;
 &lt;h3&gt;Campus Activies&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Co-founder, HeXA (a computer research group) @ UNIST (2012.03 ~ 2016.02)&lt;ul&gt;
-&lt;li&gt;Lead and improve the club as a national competitive computer club.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;h5&gt;Co-founder, HeXA (a computer research group) @ UNIST (2012.03 ~ 2016.02)&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lead and improve the club as a national competitive computer club.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;Personal Projects&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;h4&gt;Web programming&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Meal&lt;/span&gt; &lt;span class="n"&gt;planner&lt;/span&gt;&lt;span class="p"&gt;](&lt;/span&gt;&lt;span class="nl"&gt;http&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;//bab.hexa.pro) for UNIST&lt;/span&gt;
+&lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Bus&lt;/span&gt; &lt;span class="n"&gt;arrivial&lt;/span&gt; &lt;span class="n"&gt;info&lt;/span&gt;&lt;span class="p"&gt;](&lt;/span&gt;&lt;span class="nl"&gt;http&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;//bus.hexa.pro) for UNIST&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;Award&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;h4&gt;Hackerthon&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2nd and choice prize award at HeXAthon, Ulsan, 2016.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Scholarship&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Web programming&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://bab.hexa.pro"&gt;Meal planner&lt;/a&gt; for UNIST&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://bus.hexa.pro"&gt;Bus arrivial info&lt;/a&gt; for UNIST&lt;/li&gt;
+&lt;li&gt;Academic Performance Scholarship, UNIST (Mar. 2017 - present)&lt;/li&gt;
+&lt;li&gt;National Graduate Science &amp;amp; Technology Scholarship (Mar. 2011 - Feb. 2017)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Award&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;#### Hackerthon
-    2nd and choice prize award at HeXAthon, Ulsan, 2016.
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h4&gt;Scholarship&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;* Academic Performance Scholarship, UNIST (Mar. 2017 - present)
-* National Graduate Science &amp;amp; Technology Scholarship (Mar. 2011 - Feb. 2017)
-&lt;/pre&gt;&lt;/div&gt;
-
-
 &lt;h3&gt;Activies&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;* Teaching Assistant of Engineering Programming 1 (C++) (2015 - 2017)
-* Tutor of Engineering Programming 1 (C++) (2014 - 2015)
-&lt;/pre&gt;&lt;/div&gt;
-
-
+&lt;ul&gt;
+&lt;li&gt;Teaching Assistant of Engineering Programming 1 (C++) (2015 - 2017)&lt;/li&gt;
+&lt;li&gt;Tutor of Engineering Programming 1 (C++) (2014 - 2015)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Skills&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;#### Programming: Python, C++, C, PHP, Java, Javascript.
-#### Human Languages: English - Professional working proficiency, Korean - Native
-&lt;/pre&gt;&lt;/div&gt;</content></entry></feed>
+&lt;blockquote&gt;
+&lt;h4&gt;Programming: Python, C++, C, PHP, Java, Javascript.&lt;/h4&gt;
+&lt;h4&gt;Human Languages: English - Professional working proficiency, Korean - Native&lt;/h4&gt;
+&lt;/blockquote&gt;</content></entry></feed>
