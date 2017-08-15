@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Mingyu Woo's profile - category</title><link>http://mgwoo.github.io/</link><description></description><lastBuildDate>Sat, 01 Dec 2012 10:02:00 +0900</lastBuildDate><item><title>The first article</title><link>http://mgwoo.github.io/the-first-article.html</link><description>&lt;p&gt;See below intra-site link examples in reStructuredText format.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://mgwoo.github.io/the-second-article.html"&gt;a link relative to the current file&lt;/a&gt;
-&lt;a class="reference external" href="http://mgwoo.github.io/the-second-article.html"&gt;a link relative to the content root&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mingyu Woo</dc:creator><pubDate>Sat, 01 Dec 2012 10:02:00 +0900</pubDate><guid isPermaLink="false">tag:mgwoo.github.io,2012-12-01:/the-first-article.html</guid></item></channel></rss>
