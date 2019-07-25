@@ -74,7 +74,7 @@
 <div class="languages-container container-block">
 	<h2 class="container-block-title">Languages</h2>
 	<ul class="list-unstyled interests-list">
-		<li>English <span class="lang-desc">(Professional)</span></li>
+		<li>English <span class="lang-desc">(Higher proficiency)</span></li>
 		<li>Korean <span class="lang-desc">(Native)</span></li>
 	</ul>
 </div><!--//interests-->
@@ -93,7 +93,7 @@
 <section class="section summary-section">
 <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
 <div class="summary">
-    <p>I'm a graduate student of UCSD in abkgroup - one of the most famous research group in VLSI/CAD area. I specialize in programming with solving an optimization problem based on C/C++/Python/Tcl.<br />My passion for programming was fostered by physical design projects. I'm on the POSH-DARPA projects, which is aimed for building the open-source physical design flows.  Especially, I'm on the main developer in Task 8 and Task 9 (Floorplan and Placement). The Placement is the essential and core algorithm for other physical design flow (Synthesis, Floorplan, and CTS). My up-to-date status for Placement will be periodically updated in the abk-openroad GitHub repo.</p>
+    <p>I'm a graduate student of UCSD in abkgroup - one of the most famous research group in VLSI/CAD area. I specialize in programming with solving an optimization problem based on C/C++/Python/Tcl.<br />My passion for programming was fostered by physical design projects. I'm on the POSH-DARPA projects, which is aimed for building the open-source physical design flows.  Especially, I'm on the main developer in Task 8 and Task 9 (Floorplan and Placement). I developed and maintained three programs for OpenROAD; TritonMacroPlace, RePlAce, and OpenDP. My tools are used in other physical design flow (Synthesis, Floorplan, and CTS). I usually update my codes in the The-OpenROAD-Project GitHub repo.</p>
 </div><!--//summary-->
 </section><!--//section-->
                     
@@ -165,8 +165,8 @@
             <div style="margin-left:25px;">
                 <span>S. Do, <b>M. Woo</b>, S. Kang,</span>
                 <span>"Fence Region-Aware Multi-Deck Standard Cell Legalization",</span>
-                <span>Proc. ACM/IEEE GLSVLSI, 2019. (to appear)</span>
-            </div>
+                <span>Proc. ACM/IEEE GLSVLSI, 2019.</span>
+<span>(<a href="https://dl.acm.org/citation.cfm?id=3318012">Link</a>)</span>            </div>
         </div><!--//item-->
         <div class="item">
             <span style="float:left">[3]</span>
@@ -198,15 +198,7 @@
             <div style="margin-left:25px;">
                 <span><b>M. Woo</b> and S. Kang,</span>
                 <span>"Clip-Shifting-Aware GRASP-Based Methods for Lithography Pattern Classification",</span>
-                <span>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (Submitted)</span>
-            </div>
-        </div><!--//item-->
-        <div class="item">
-            <span style="float:left">[3]</span>
-            <div style="margin-left:25px;">
-                <span>Y. Kang, Y. Park, S. Kim, T. Lim, S. Oh, <b>M. Woo</b> and S. Kang,</span>
-                <span>"Analysis and Solution of CNN Accuracy Reduction over Channel Loop Tiling",</span>
-                <span>IEEE Transactions on Circuits and Systems I (Submitted)</span>
+                <span>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (Under Review)</span>
             </div>
         </div><!--//item-->
 
@@ -216,19 +208,22 @@
     <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
     <h4>Circuit Projects</h4>
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/abk-openroad/OpenROAD-Utilities/tree/master/verilog-to-def" target="_blank">Verilog To DEF translator</a></span> - <span class="project-tagline">Convert hierarchical/flat gate-level Verilog to a flat DEF file. Verilog-to-DEF is Helpful for both of floorplanner and placer. The converter is based on the OpenSTA's network structure.</span>
+            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/TritonMacroPlace" target="_blank">Triton Macro Place</a></span> - <span class="project-tagline">ParquetFP based macro cell placer for OpenROAD. Generate a placed DEF with macro placements honoring halos, channels and cell row "snapping". Approximately ceil((#macros/3)^(3/2)) "sets" corresponding to quadrisections of the initial placed mixed-size DEF are explored and packed using ParquetFP-based annealing. The best resulting floorplan according to a heuristic evaluation function is returned.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/abk-openroad/RePlAce/commit/c197f2b916eede2f676d89d2b43f2d886b79ada5" target="_blank">Timing-Driven RePlAce with OpenSTA API</a></span> - <span class="project-tagline">RePlAce could generate smaller WNS/TNS results compared with a commercial tool.</span>
+            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/RePlAce/commit/c197f2b916eede2f676d89d2b43f2d886b79ada5" target="_blank">Timing-Driven RePlAce with OpenSTA API</a></span> - <span class="project-tagline">I've ported OpenSTA timing engine into RePlAce. Net-reweighting has been applied for timing critical nets. RePlAce can generate smaller WNS/TNS results compared to a commercial tool.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/abk-openroad/RePlAce" target="_blank">RePlAce for LEF/DEF/Verilog</a></span> - <span class="project-tagline">Generate and import LEF/DEF/Verilog parsers into RePlAce.</span>
+            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/RePlAce" target="_blank">RePlAce for LEF/DEF</a></span> - <span class="project-tagline">I've ported Si2 LEF/DEF Parsers into RePlAce. Original RePlAce can only understand research-oriented format (bookshelf), which drops and approximates lots of meaningful information from commercial formats (LEF/DEF). RePlAce now can understand commercial standards and can generate meaningful and usable solutions.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/sanggido/OpenDP" target="_blank">OpenDP; Fence Region-Aware Multi-Deck Standard Cell Legalization</a></span> - <span class="project-tagline">Proposed fence-region and multi-deck-aware open-source detail placer [2]</span>
+            <span class="project-title"><a href="https://github.com/sanggido/OpenDP" target="_blank">OpenDP; Fence Region-Aware Multi-Deck Standard Cell Legalization</a></span> - <span class="project-tagline">Proposed fence-region and multi-deck-aware open-source detail placer [2]. I've ported Si2 LEF/DEF Parsers into OpenDP. Broadly used in Synthesis, Gate-sizing, and Clock Tree Synthesis (CTS) in OpenROAD flow.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
             <span class="project-title"><a href="https://github.com/mgwoo/verilog-parser" target="_blank">FLEX/BISON Verilog Parser for C++</a></span> - <span class="project-tagline">Modify the previous Ben-marshall's verilog parser to be successfully compiled under c++11/c++14 environments.</span>
+        </div><!--//item-->
+        <div class="item" style="margin-left:10px;">
+            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/OpenROAD-Utilities/tree/master/verilog-to-def" target="_blank">Verilog To DEF translator</a></span> - <span class="project-tagline">Convert hierarchical/flat gate-level Verilog to a flat DEF file. Verilog-to-DEF is Helpful for both of floorplanner and placer. The converter is based on the OpenSTA's ConcreteNetwork API.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
             <span class="project-title"><a href="https://github.com/mgwoo/GRASP-Pattern-Classification" target="_blank">GRASP based Metaheuristics for Layout Pattern Classification</a></span> - <span class="project-tagline">Proposed new methodology for Layout Pattern Calssification problem [1]</span>
