@@ -93,7 +93,7 @@
 <section class="section summary-section">
 <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
 <div class="summary">
-    <p>I'm a graduate student of UCSD in abkgroup - one of the most famous research group in VLSI/CAD area. I specialize in programming with solving an optimization problem based on C/C++/Python/Tcl.<br />My passion for programming was fostered by physical design projects. I'm on the POSH-DARPA projects, which is aimed for building the open-source physical design flows.  Especially, I'm on the main developer in Task 8 and Task 9 (Floorplan and Placement). I developed and maintained three programs for OpenROAD; TritonMacroPlace, RePlAce, and OpenDP. My tools are used in other physical design flow (Synthesis, Floorplan, and CTS). I usually update my codes in the The-OpenROAD-Project GitHub repo.</p>
+    <p>I'm a graduate student of UCSD in abkgroup - one of the most famous research group in VLSI/CAD area. I specialize in programming with solving an optimization problem based on C/C++/Python/Tcl.<br />My passion for programming was fostered by physical design projects. I'm on the POSH-DARPA projects, which is aimed for building the open-source physical design flows (and supported by Google.) Especially, I'm on the main developer in Task 8 and Task 9 (Floorplan and Placement). I developed and maintained three programs for OpenROAD; TritonMacroPlace, RePlAce, and OpenDP. My tools are used in other physical design flow (Synthesis, Floorplan, and CTS). I update my codes in the The-OpenROAD-Project GitHub repo.</p>
 </div><!--//summary-->
 </section><!--//section-->
                     
@@ -225,6 +225,14 @@
                 <span>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (Under Review)</span>
             </div>
         </div><!--//item-->
+        <div class="item">
+            <span style="float:left">[3]</span>
+            <div style="margin-left:25px;">
+                <span>M. Fogaça, A. B. Kahng, E. Monteiro, R. Reis, L. Wang and <b>M. Woo</b>,</span>
+                <span>"On the Superiority of Modularity-Based Clustering for Determining Placement-Relevant Clusters",</span>
+                <span>Transactions on Very Large Scale Integration (VLSI) Systems (Under Minor Revision)</span>
+            </div>
+        </div><!--//item-->
 
 </section><!--//section-->
 
@@ -232,16 +240,16 @@
     <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
     <h4>Circuit Projects</h4>
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/TritonMacroPlace" target="_blank">Triton Macro Place</a></span> - <span class="project-tagline">ParquetFP based macro cell placer for OpenROAD. Generate a placed DEF with macro placements honoring halos, channels and cell row "snapping". Approximately ceil((#macros/3)^(3/2)) "sets" corresponding to quadrisections of the initial placed mixed-size DEF are explored and packed using ParquetFP-based annealing. The best resulting floorplan according to a heuristic evaluation function is returned.</span>
+            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/RePlAce" target="_blank">RePlAce</a></span> - <span class="project-tagline">RePlAce is a global placement tool for spreading and placing standard cells by minimizing wire-length. RePlAce solves the electrostatic PDEs for density calculation, which is core algorithm for spreading the standard cells. I've rewritten the whole RePlAce as clean C++11 code based on OpenDB, which means RePlAce now fully supports LEF/DEF commercial formats in fast. (Verified with 7/12/14/28/45/65/130 nm technologies.). Routability-driven and Timing-driven implementations are ongoing with clean structure. RePlAce has a major role in 'global_placement' command in OpenROAD flow.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/RePlAce/commit/c197f2b916eede2f676d89d2b43f2d886b79ada5" target="_blank">Timing-Driven RePlAce with OpenSTA API</a></span> - <span class="project-tagline">I've ported OpenSTA timing engine into RePlAce. Net-reweighting has been applied for timing critical nets. RePlAce can generate smaller WNS/TNS results compared to a commercial tool.</span>
+            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/RePlAce/commit/c197f2b916eede2f676d89d2b43f2d886b79ada5" target="_blank">Timing-Driven RePlAce with OpenSTA API</a></span> - <span class="project-tagline">Ported OpenSTA commercial timer engine to old RePlAce. Net-reweighting has been applied for timing critical nets. RePlAce can generate smaller WNS/TNS results compared to a commercial tool.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/RePlAce" target="_blank">RePlAce for LEF/DEF</a></span> - <span class="project-tagline">I've ported Si2 LEF/DEF Parsers into RePlAce. Original RePlAce can only understand research-oriented format (bookshelf), which drops and approximates lots of meaningful information from commercial formats (LEF/DEF). RePlAce now can understand commercial standards and can generate meaningful and usable solutions.</span>
+            <span class="project-title"><a href="https://github.com/sanggido/OpenDP" target="_blank">OpenDP; Fence Region-Aware Multi-Deck Standard Cell Legalization</a></span> - <span class="project-tagline">Proposed fence-region and multi-deck-aware open-source detail placer [2]. Ported Si2 LEF/DEF parsers into OpenDP. Broadly used in Synthesis, Gate-sizing, and Clock Tree Synthesis (CTS). OpenDP has a major role in 'legalize_placement' command in OpenROAD flow.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/sanggido/OpenDP" target="_blank">OpenDP; Fence Region-Aware Multi-Deck Standard Cell Legalization</a></span> - <span class="project-tagline">Proposed fence-region and multi-deck-aware open-source detail placer [2]. I've ported Si2 LEF/DEF Parsers into OpenDP. Broadly used in Synthesis, Gate-sizing, and Clock Tree Synthesis (CTS) in OpenROAD flow.</span>
+            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/TritonMacroPlace" target="_blank">Triton Macro Place</a></span> - <span class="project-tagline">ParquetFP based macro cell placer for OpenROAD. Generate a placed DEF with macro placements honoring halos, channels and cell row 'snapping'. Approximately ceil((#macros/3)^(3/2)) 'sets' corresponding to quadrisections of the initial placed mixed-size DEF are explored and packed using ParquetFP-based annealing. The best resulting floorplan according to a heuristic evaluation function is returned. TritonMP has a major role in 'macro_placement' command in OpenROAD flow.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
             <span class="project-title"><a href="https://github.com/mgwoo/verilog-parser" target="_blank">FLEX/BISON Verilog Parser for C++</a></span> - <span class="project-tagline">Modify the previous Ben-marshall's verilog parser to be successfully compiled under c++11/c++14 environments.</span>
