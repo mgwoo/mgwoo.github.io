@@ -308,25 +308,28 @@
     <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
     <h4>Circuit Projects</h4>
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/RePlAce" target="_blank">RePlAce</a></span> - <span class="project-tagline">RePlAce is a global placement tool for spreading and placing standard cells by minimizing wire-length. RePlAce solves the electrostatic PDEs for density calculation, which is a core algorithm for spreading the standard cells. I've rewritten the whole RePlAce as clean C++11 code based on OpenDB, which means RePlAce now fully supports LEF/DEF commercial formats in fast. (Verified with 7/12/14/28/45/65/130 nm technologies.). Routability-driven and Timing-driven implementations are ongoing with the clean structure. RePlAce has a major role in the 'global_placement' command in OpenROAD flow.</span>
+            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/RePlAce" target="_blank">RePlAce</a></span> - <span class="project-tagline">RePlAce is a global placement tool for spreading and placing standard cells by minimizing wire-length. RePlAce solves the electrostatic PDEs for density calculation, which is a core algorithm for spreading the standard cells. I've rewritten the whole RePlAce as clean C++11 code based on OpenDB, which means RePlAce now fully supports LEF/DEF commercial formats in fast. (Verified with 7/12/14/28/45/65/130 nm technologies.). Routability-driven and Timing-driven are also implemented with OpenSTA and FastRoute APIs. RePlAce is available as the 'global_placement' command in the OpenROAD flow.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/RePlAce/commit/c197f2b916eede2f676d89d2b43f2d886b79ada5" target="_blank">Timing-Driven RePlAce with OpenSTA API</a></span> - <span class="project-tagline">Ported OpenSTA commercial timer engine to old RePlAce. Net-reweighting has been applied for timing critical nets. RePlAce can generate smaller WNS/TNS results compared to a commercial tool.</span>
+            <span class="project-title"><a href="https://github.com/sanggido/OpenDP" target="_blank">OpenDP; Fence Region-Aware Multi-Deck Standard Cell Legalization</a></span> - <span class="project-tagline">Proposed fence-region and multi-deck-aware open-source detail placer [2]. This project uses the Si2 LEF/DEF parser. OpenDP is now used in Synthesis, Gate-sizing, and Clock Tree Synthesis (CTS). OpenDP is available as the 'legalize_placement' command in the OpenROAD flow.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/sanggido/OpenDP" target="_blank">OpenDP; Fence Region-Aware Multi-Deck Standard Cell Legalization</a></span> - <span class="project-tagline">Proposed fence-region and multi-deck-aware open-source detail placer [2]. Ported Si2 LEF/DEF parsers into OpenDP. Broadly used in Synthesis, Gate-sizing, and Clock Tree Synthesis (CTS). OpenDP has a major role in the 'legalize_placement' command in OpenROAD flow.</span>
+            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/TritonMacroPlace" target="_blank">Triton Macro Place</a></span> - <span class="project-tagline">ParquetFP based macro cell placer for the OpenROAD. Generate a placed DEF with macro placements honoring halos, channels and cell row 'snapping'. Approximately ceil((#macros/3)^(3/2)) 'sets' corresponding to quadrisections of the initial placed mixed-size DEF are explored and packed using ParquetFP-based annealing. The best resulting floorplan according to a heuristic evaluation function is returned. TritonMP is available as the 'macro_placement' command in the OpenROAD flow.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/TritonMacroPlace" target="_blank">Triton Macro Place</a></span> - <span class="project-tagline">ParquetFP based macro cell placer for OpenROAD. Generate a placed DEF with macro placements honoring halos, channels and cell row 'snapping'. Approximately ceil((#macros/3)^(3/2)) 'sets' corresponding to quadrisections of the initial placed mixed-size DEF are explored and packed using ParquetFP-based annealing. The best resulting floorplan according to a heuristic evaluation function is returned. TritonMP has a major role in the 'macro_placement' command in OpenROAD flow.</span>
+            <span class="project-title"><a href="https://github.com/mgwoo/ClipGraphExtract" target="_blank">ClipGraphExtractor</a></span> - <span class="project-tagline">Extracts a sub-graph from placed and routed circuit layout with clip coordinates. This project was used as an example of adding a tool for the OpenROAD and machine learning EDA tutorial. This project registers Python modules (GraphExtractor_py) using the SWIG.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/mgwoo/verilog-parser" target="_blank">FLEX/BISON Verilog Parser for C++</a></span> - <span class="project-tagline">Modify the previous Ben-marshall's verilog parser to be successfully compiled under c++11/c++14 environments.</span>
+            <span class="project-title"><a href="https://github.com/ieee-ceda-datc/datc-rdf-calibrations" target="_blank">RDF Calibration Testcases</a></span> - <span class="project-tagline">Provides publicly-available timer, RC parasitic and static IR drop calibration testcases. This project used the OpenROAD flow with three FreePDKs (NanGate45, SkyWater130HD/HS).</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/OpenROAD-Utilities/tree/master/verilog-to-def" target="_blank">Verilog To DEF translator</a></span> - <span class="project-tagline">Convert hierarchical/flat gate-level Verilog to a flat DEF file. Verilog-to-DEF is Helpful for both of floorplanner and placer. The converter is based on the OpenSTA's ConcreteNetwork API.</span>
+            <span class="project-title"><a href="https://github.com/mgwoo/verilog-parser" target="_blank">FLEX/BISON Verilog Parser for C++</a></span> - <span class="project-tagline">Improves the previous Ben-marshall's verilog parser to be successfully compiled under c++11/c++14 environments.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/mgwoo/GRASP-Pattern-Classification" target="_blank">GRASP based Metaheuristics for Layout Pattern Classification</a></span> - <span class="project-tagline">Proposed new methodology for Layout Pattern Calssification problem [1]</span>
+            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/OpenROAD-Utilities/tree/master/verilog-to-def" target="_blank">Verilog To DEF translator</a></span> - <span class="project-tagline">Convert hierarchical/flat gate-level Verilog to a flat DEF file. This project traverses all hierarchical modules with BFS. This project used the OpenSTA's ConcreteNetwork API.</span>
+        </div><!--//item-->
+        <div class="item" style="margin-left:10px;">
+            <span class="project-title"><a href="https://github.com/mgwoo/GRASP-Pattern-Classification" target="_blank">GRASP based Metaheuristics for Layout Pattern Classification</a></span> - <span class="project-tagline">Proposed new methodology for Layout Pattern Calssification problem [1].</span>
         </div><!--//item-->
 
     <h4>Web Projects</h4>
@@ -335,9 +338,6 @@
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
             <span class="project-title"><a href="https://github.com/mgwoo/SSH-Tunnel-Auto-reconnecting" target="_blank">Auto SSH Local/Remote Tunneling</a></span> - <span class="project-tagline">A bash script that detects whether a tunneling connection is broken and automatically reconnects. This script would be combined with the crontab scheduler. (Support Ubuntu/Centos)</span>
-        </div><!--//item-->
-        <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="http://bab.hexa.pro" target="_blank">UNIST Menu Info</a></span> - <span class="project-tagline">Web site for Food Menu in UNIST.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
             <span class="project-title"><a href="http://bus.hexa.pro" target="_blank">UNIST Bus Info</a></span> - <span class="project-tagline">Web site for Bus arrival in UNIST.</span>
