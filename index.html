@@ -108,7 +108,7 @@
                 <div class="company">Senior Engineer</div>
             </div><!--//meta-->
             <div class="details">
-                <p></p>
+                <p>Working on the Advanced Leakage Optimization project. This project reduced more than 8+ hours of the leakage recovery runtime with PT-DMSA, by proposing a new methodology.</p>
             </div><!--//details-->
         </div><!--//item-->
         <div class="item">
@@ -156,7 +156,7 @@
                 <div class="company">M.Sc. Graduate Student</div>
             </div><!--//meta-->
             <div class="details">
-                <p>Dissertation: Clip-Shifting-Aware Lithography Pattern Classification</p>
+                <p>Dissertation: Clip-Shifting-Aware Lithography Pattern Classification [c1]</p>
             </div><!--//details-->
         </div><!--//item-->
 </section><!--//section-->
@@ -289,7 +289,7 @@
             <div style="margin-left:40px;">
                 <span>J.-W. Jeon, A. B. Kahng, J.-H. Kang, J. Kim and <b>M. Woo</b>,</span>
                 <span>"SLO-ECO: Single-Line-Open Aware ECO Detailed Placement and Detailed Routing Co-Optimization",</span>
-                <span>Proc. IEEE International Symposium on Quality Electronic Design (ISQED), 2024 (To appear).</span>
+                <span>Proc. IEEE International Symposium on Quality Electronic Design (ISQED), 2024, pp. 1-8</span>
 <span>(<a href="https://vlsicad.ucsd.edu/Publications/Conferences/406/c406.pdf">Link</a>)</span>            </div>
         </div><!--//item-->
         <div class="item">
@@ -298,7 +298,7 @@
                 <span>A. B. Kahng, B. Pramanik and <b>M. Woo</b>,</span>
                 <span>"A Hybrid ECO Detailed Placement Flow for Improved Reduction of Dynamic IR Drop",</span>
                 <span>Proc. Great Lakes Symposium on VLSI (GLSVLSI), 2024 (To appear).</span>
-            </div>
+<span>(<a href="https://vlsicad.ucsd.edu/Publications/Conferences/408/c408.pdf">Link</a>)</span>            </div>
         </div><!--//item-->
     <h4 style="font-weight:500;">Journal</h4>
         <div class="item">
@@ -340,25 +340,31 @@
     <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
     <h4>Circuit Projects</h4>
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/RePlAce" target="_blank">RePlAce [c3][c4]</a></span> - <span class="project-tagline">RePlAce is a global placement tool for spreading and placing standard cells by minimizing wire-length. RePlAce solves the electrostatic PDEs for density calculation, which is a core algorithm for spreading the standard cells. I've rewritten the whole RePlAce as clean C++11 code based on OpenDB, which means RePlAce now fully supports LEF/DEF commercial formats in fast. RePlAce has been verified with 7/12/14/28/45/65/130 nm technologies. Routability-driven and Timing-driven are implemented with OpenSTA and FastRoute APIs within OpenROAD. RePlAce is available as the 'global_placement' command in the OpenROAD flow.</span>
+            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/RePlAce" target="_blank">RePlAce [c3][c4][j2]</a></span> - <span class="project-tagline">RePlAce is a global placement tool for spreading and placing standard cells by minimizing wire-length. RePlAce solves the electrostatic PDEs for density calculation, which is a core algorithm for spreading the standard cells. I've rewritten the whole RePlAce as clean C++11 code based on OpenDB, which means RePlAce now fully supports LEF/DEF commercial formats in fast. RePlAce has been verified with 7/12/14/28/45/65/130 nm technologies. Routability-driven and Timing-driven are implemented with OpenSTA and FastRoute APIs within OpenROAD. RePlAce is available as the 'global_placement' command in the OpenROAD flow.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
             <span class="project-title"><a href="https://github.com/sanggido/OpenDP" target="_blank">OpenDP [c2][c3][c4]</a></span> - <span class="project-tagline">Proposed fence-region and multi-deck-aware open-source detailed placer that utilizes the Si2 LEF/DEF parser. This project achieved 63% smaller displacement and 70% runtime reduction compared with ICCAD 2017 contest winner. OpenDP is used in Synthesis, Gate-sizing, and Clock Tree Synthesis (CTS) within the OpenROAD flow. OpenDP is available as the 'legalize_placement' command in the OpenROAD flow.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/TritonMacroPlace" target="_blank">TritonMP [c3][c4]</a></span> - <span class="project-tagline">ParquetFP based macro cell placer for the OpenROAD. Generate a placed DEF with macro placements honoring halos, channels and cell row 'snapping'. Approximately ceil((#macros/3)^(3/2)) 'sets' corresponding to quadrisections of the initial placed mixed-size DEF are explored and packed using ParquetFP-based annealing. The best resulting floorplan according to a heuristic evaluation function is returned. TritonMP is available as the 'macro_placement' command in the OpenROAD flow.</span>
-        </div><!--//item-->
-        <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/mgwoo/ClipGraphExtract" target="_blank">ClipGraphExtractor (OpenROAD EDA Tutorial)</a></span> - <span class="project-tagline">Extracts a sub-graph from placed and routed circuit layout with clip coordinates. This project was used as an example of adding a tool for the OpenROAD and machine learning EDA tutorial. This project registers Python modules (GraphExtractor_py) using the SWIG wrapper.</span>
+            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/TritonMacroPlace" target="_blank">Triton Macro Place[c3][c4]</a></span> - <span class="project-tagline">ParquetFP based macro cell placer for the OpenROAD. Generate a placed DEF with macro placements honoring halos, channels and cell row 'snapping'. Approximately ceil((#macros/3)^(3/2)) 'sets' corresponding to quadrisections of the initial placed mixed-size DEF are explored and packed using ParquetFP-based annealing. The best resulting floorplan according to a heuristic evaluation function is returned. TritonMP is available as the 'macro_placement' command in the OpenROAD flow.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
             <span class="project-title"><a href="https://github.com/ieee-ceda-datc/datc-rdf-calibrations" target="_blank">RDF Calibration Testcases [c5][c9][c14]</a></span> - <span class="project-tagline">Provides publicly-available timer, RC parasitic and static IR drop calibration testcases. This project utilized the OpenROAD flow with three open-sourced PDKs (NanGate45, SkyWater130HD/HS).</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
+            <span class="project-title"><a href="https://github.com/ABKGroup/SLO-ECO" target="_blank">SLO-ECO [c13][c16]</a></span> - <span class="project-tagline">SLO-ECO solves detailed placement and detailed routing simultaneously at the post routeOpt (PRO) stage, using the Z3 SMT solver. Also, SLO-ECO considers the single-line-open (SLO) violations from physical verification stage. Translated all Perl scripts into clean C++14 with OpenROAD structures.</span>
+        </div><!--//item-->
+        <div class="item" style="margin-left:10px;">
+            <span class="project-title"><a href="https://github.com/ABKGroup/PROBE3.0" target="_blank">PROBE 2.0 [j3]</a></span> - <span class="project-tagline">Proposed a new Kth metric using knight's tour for the design-technology co-optimization (DTCO). Generates cell LEFs from a satisfiability modulo theories (SMT) solver's output. Contains AutoML H2O flow to predict Kth for auto-generated cell's routability evaluation.</span>
+        </div><!--//item-->
+        <div class="item" style="margin-left:10px;">
+            <span class="project-title"><a href="https://github.com/mgwoo/ClipGraphExtract" target="_blank">Clip Graph Extractor (OpenROAD EDA Tutorial)</a></span> - <span class="project-tagline">Extracts a sub-graph from placed and routed circuit layout with clip coordinates. This project was used as an example of adding a tool for the OpenROAD and machine learning EDA tutorial. This project registers Python modules (GraphExtractor_py) using the SWIG wrapper.</span>
+        </div><!--//item-->
+        <div class="item" style="margin-left:10px;">
             <span class="project-title"><a href="https://github.com/mgwoo/verilog-parser" target="_blank">FLEX/BISON Verilog Parser for C++</a></span> - <span class="project-tagline">Improves the previous Ben-marshall's verilog parser to be successfully compiled under c++11/c++14 environments.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/OpenROAD-Utilities/tree/master/verilog-to-def" target="_blank">Verilog To DEF translator</a></span> - <span class="project-tagline">Convert hierarchical/flat gate-level Verilog to a flat DEF file. This project traverses all hierarchical modules with BFS. This project used the OpenSTA's ConcreteNetwork API.</span>
+            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/OpenROAD-Utilities/tree/master/verilog-to-def" target="_blank">Verilog to DEF Translator</a></span> - <span class="project-tagline">Convert hierarchical/flat gate-level Verilog to a flat DEF file. This project traverses all hierarchical modules with BFS. This project used the OpenSTA's ConcreteNetwork API.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
             <span class="project-title"><a href="https://github.com/mgwoo/GRASP-Pattern-Classification" target="_blank">GRASP based Metaheuristics for Layout Pattern Classification [c1]</a></span> - <span class="project-tagline">Proposed new methodology for layout pattern calssification problem.</span>
