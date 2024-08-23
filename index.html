@@ -81,10 +81,14 @@
 <div class="interests-container container-block">
 	<h2 class="container-block-title">Interests</h2>
 	<ul class="list-unstyled interests-list">
-		   <li>Circuit Physical Design</li>
-		   <li>Design Automation</li>
-		   <li>Machine Learning</li>
-		   <li>Web Programming</li>
+		   <li>VLSI Physical Design (PD)</li>
+		   <li>Macro, Global, and Detailed Placement within PD (Open Sourced)</li>
+		   <li>ECO Detailed Placement and Routing (Open Sourced)</li>
+		   <li>ECO VT Swap (Leakage Recovery / Setup Recovery)</li>
+		   <li>Standard-Cell Layout Auto Generation</li>
+		   <li>Design Technology Co-Optimization (DTCO) and Pathfinding</li>
+		   <li>SI2 LEF/DEF Parser Implementation (flex/yacc) and Integration</li>
+		   <li>EDA Auto-tuning with Machine Learning</li>
 	</ul>
 </div><!--//interests-->
     
@@ -93,7 +97,7 @@
 <section class="section summary-section">
 <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
 <div class="summary">
-    <p>I'm a senior engineer at Qualcomm and a Ph.D. candidate within abkgroup, which is one of the most famous research groups in VLSI/CAD area. I specialize in programming with solving an optimization problem based on C/C++/Python/Tcl. <br /> My passion for programming was fostered by physical design projects. I was the main developer of OpenROAD which is supported by Google and POSH projects from DARPA. OpenROAD was aimed for building the open-source physical design flows and I was the main developer in Task 8 (Floorplan) and Task 9 (Placement). I developed, rewrote, and maintained three projects; TritonMP, RePlAce, and OpenDP (all tools are available as 'macro_placement', 'global_placement', and 'legalize_placement' Tcl commands). My contributed tools are widely used in OpenROAD. Nowadays, OpenROAD has generated 600+ IC tapeouts successfully.</p>
+    <p>I'm a senior engineer at Qualcomm. I received a Ph.D. degree in ABKGroup from UC San Diego, one of the most famous research groups in VLSI/CAD. I specialize in programming solving an optimization problem based on C/C++/Python/Tcl.My passion for programming was fostered by physical design projects. I was the main developer of OpenROAD which is supported by Google and POSH projects from DARPA. OpenROAD was aimed at building the open-source physical design flows and I was the main developer in Task 8 (Floorplan) and Task 9 (Placement). I developed, rewrote, and maintained three projects; TritonMP, RePlAce, and OpenDP (all tools are available as 'macro_placement', 'global_placement', and 'legalize_placement' Tcl commands). My contributed tools are widely used in OpenROAD. Nowadays, OpenROAD has generated 600+ IC tapeouts successfully.</p>
 </div><!--//summary-->
 </section><!--//section-->
                         
@@ -108,7 +112,7 @@
                 <div class="company">Senior Engineer</div>
             </div><!--//meta-->
             <div class="details">
-                <p>Working on the Advanced Leakage Optimization project. This project reduced more than 8+ hours of the leakage recovery runtime with PT-DMSA, by proposing a new methodology.</p>
+                <p>Advanced Leakage Optimization (AdvLeakOpt): Reduced days of leakage recovery runtime (30-50%) within PT-DMSA, by utilizing the fastest C++ implementation.</p>
             </div><!--//details-->
         </div><!--//item-->
         <div class="item">
@@ -297,7 +301,7 @@
             <div style="margin-left:40px;">
                 <span>A. B. Kahng, B. Pramanik and <b>M. Woo</b>,</span>
                 <span>"A Hybrid ECO Detailed Placement Flow for Improved Reduction of Dynamic IR Drop",</span>
-                <span>Proc. Great Lakes Symposium on VLSI (GLSVLSI), 2024 (To appear).</span>
+                <span>Proc. Great Lakes Symposium on VLSI (GLSVLSI), 2024, pp. 1-7</span>
 <span>(<a href="https://vlsicad.ucsd.edu/Publications/Conferences/408/c408.pdf">Link</a>)</span>            </div>
         </div><!--//item-->
     <h4 style="font-weight:500;">Journal</h4>
@@ -346,7 +350,7 @@
             <span class="project-title"><a href="https://github.com/sanggido/OpenDP" target="_blank">OpenDP [c2][c3][c4]</a></span> - <span class="project-tagline">Proposed fence-region and multi-deck-aware open-source detailed placer that utilizes the Si2 LEF/DEF parser. This project achieved 63% smaller displacement and 70% runtime reduction compared with ICCAD 2017 contest winner. OpenDP is used in Synthesis, Gate-sizing, and Clock Tree Synthesis (CTS) within the OpenROAD flow. OpenDP is available as the 'legalize_placement' command in the OpenROAD flow.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
-            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/TritonMacroPlace" target="_blank">Triton Macro Place[c3][c4]</a></span> - <span class="project-tagline">ParquetFP based macro cell placer for the OpenROAD. Generate a placed DEF with macro placements honoring halos, channels and cell row 'snapping'. Approximately ceil((#macros/3)^(3/2)) 'sets' corresponding to quadrisections of the initial placed mixed-size DEF are explored and packed using ParquetFP-based annealing. The best resulting floorplan according to a heuristic evaluation function is returned. TritonMP is available as the 'macro_placement' command in the OpenROAD flow.</span>
+            <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/TritonMacroPlace" target="_blank">Triton Macro Place [c3][c4]</a></span> - <span class="project-tagline">ParquetFP based macro cell placer for the OpenROAD. Generate a placed DEF with macro placements honoring halos, channels and cell row 'snapping'. Approximately ceil((#macros/3)^(3/2)) 'sets' corresponding to quadrisections of the initial placed mixed-size DEF are explored and packed using ParquetFP-based annealing. The best resulting floorplan according to a heuristic evaluation function is returned. TritonMP is available as the 'macro_placement' command in the OpenROAD flow.</span>
         </div><!--//item-->
         <div class="item" style="margin-left:10px;">
             <span class="project-title"><a href="https://github.com/ieee-ceda-datc/datc-rdf-calibrations" target="_blank">RDF Calibration Testcases [c5][c9][c14]</a></span> - <span class="project-tagline">Provides publicly-available timer, RC parasitic and static IR drop calibration testcases. This project utilized the OpenROAD flow with three open-sourced PDKs (NanGate45, SkyWater130HD/HS).</span>
