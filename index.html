@@ -34,7 +34,7 @@
     <div class="profile-container">
         <img class="profile-img" src="https://mgwoo.github.io/theme/images/profile.png" alt="profile picture" />
         <h1 class="name">Mingyu Woo</h1>
-        <h3 class="tagline">Senior Engineer</h3>
+        <h3 class="tagline">Senior Research Engineer</h3>
     </div><!--//profile-container-->
     
     <div class="contact-container container-block">
@@ -48,7 +48,6 @@
             
             <li class="github"><i class="fa fa-github"></i><a href="http://github.com/mgwoo" target="_blank">github.com/mgwoo</a></li>
             
-            <li class="github"><i class="fa fa-facebook"></i><a href="http://facebook.com/mgwooz" target="_blank">facebook.com/mgwooz</a></li>
             
             
         </ul>
@@ -81,10 +80,10 @@
 <div class="interests-container container-block">
 	<h2 class="container-block-title">Interests</h2>
 	<ul class="list-unstyled interests-list">
-		   <li>VLSI Physical Design (PD)</li>
+		   <li>VLSI Physical Design (PD), CAD</li>
 		   <li>Macro, Global, and Detailed Placement within PD (Open Sourced)</li>
 		   <li>ECO Detailed Placement and Routing (Open Sourced)</li>
-		   <li>ECO VT Swap (Leakage Recovery / Setup Recovery)</li>
+		   <li>ECO VT Swap (Leakage Recovery and Setup Recovery)</li>
 		   <li>Standard-Cell Layout Auto Generation</li>
 		   <li>Design Technology Co-Optimization (DTCO) and Pathfinding</li>
 		   <li>SI2 LEF/DEF Parser Implementation (flex/yacc) and Integration</li>
@@ -97,7 +96,7 @@
 <section class="section summary-section">
 <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
 <div class="summary">
-    <p>I'm a senior engineer at Qualcomm. I received a Ph.D. degree in ABKGroup from UC San Diego, one of the most famous research groups in VLSI/CAD. I specialize in programming solving an optimization problem based on C/C++/Python/Tcl.My passion for programming was fostered by physical design projects. I was the main developer of OpenROAD which is supported by Google and POSH projects from DARPA. OpenROAD was aimed at building the open-source physical design flows and I was the main developer in Task 8 (Floorplan) and Task 9 (Placement). I developed, rewrote, and maintained three projects; TritonMP, RePlAce, and OpenDP (all tools are available as 'macro_placement', 'global_placement', and 'legalize_placement' Tcl commands). My contributed tools are widely used in OpenROAD. Nowadays, OpenROAD has generated 600+ IC tapeouts successfully.</p>
+    <p>I'm a senior research engineer at Qualcomm. I received a Ph.D. degree in ABKGroup from UC San Diego, one of the most famous research groups in VLSI/CAD. I specialize in programming solving an optimization problem based on C/C++/Python/Tcl. My passion for programming was fostered by physical design projects. I was the main developer of OpenROAD which is supported by Google and POSH projects from DARPA. OpenROAD was aimed at building the open-source physical design flows and I was the main developer in Task 8 (Floorplan) and Task 9 (Placement). I developed, rewrote, and maintained three projects; TritonMP, RePlAce, and OpenDP (all tools are available as 'macro_placement', 'global_placement', and 'legalize_placement' Tcl commands). My contributed tools are widely used in OpenROAD. Nowadays, OpenROAD has generated 600+ IC tapeouts successfully. <br /> At Qualcomm, I am the main developer of Advanced Leakage Optimization (AdvLeakOpt) and the Internal ECO Solution Flow, integrated into both Synopsys PT-DMSA and Cadence Tempus C-MMMC flows. These tools have achieved ~20% further leakage reduction and ~50% runtime reduction compared to commercial solutions, and have been deployed into Snapdragon flagship products. With 5,000+ runs executed by 400+ unique users, they have become essential tools for leakage recovery and setup recovery ECO cycles across Qualcomm. I also maintain the Internal Analysis Tool, a LEF/DEF parsing solution with 100,000+ runs used across various VLSI IC database analysis flows.</p>
 </div><!--//summary-->
 </section><!--//section-->
                         
@@ -106,13 +105,13 @@
         <div class="item">
             <div class="meta">
                 <div class="upper-row">
-                    <h3 class="job-title" style="line-height:unset;">Qualcomm, San Diego</h3>
+                    <h3 class="job-title" style="line-height:unset;">Qualcomm Technologies, Inc., San Diego</h3>
                     <div class="time">Apr. 2023 - Present</div>
                 </div><!--//upper-row-->
-                <div class="company">Senior Engineer</div>
+                <div class="company">Senior Research Engineer</div>
             </div><!--//meta-->
             <div class="details">
-                <p>Advanced Leakage Optimization (AdvLeakOpt): Reduced days of leakage recovery runtime (30-50%) within PT-DMSA, by utilizing the fastest C++ implementation.</p>
+                <p>Main developer of Advanced Leakage Optimization (AdvLeakOpt) and Internal ECO Solution Flow, widely adopted across Qualcomm with 5,000+ runs for leakage recovery and setup recovery ECO cycles. Maintainer of Internal Analysis Tool with 100,000+ runs for VLSI IC database analysis.</p>
             </div><!--//details-->
         </div><!--//item-->
         <div class="item">
@@ -343,6 +342,12 @@
 <section class="section projects-section">
     <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
     <h4>Circuit Projects</h4>
+        <div class="item" style="margin-left:10px;">
+            <span class="project-title">AdvLeakOpt and Internal ECO Solution Flow</span> - <span class="project-tagline">Main developer of AdvLeakOpt and the Internal ECO Solution Framework. Developed a C++ standalone binary to parse and determine VT-swaps with significantly reduced runtime. Compared to commercial solutions, our flow achieved ~20% further leakage reduction with ~50% runtime reduction, and has been integrated into both Synopsys PT-DMSA and Cadence Tempus C-MMMC flows. Successfully deployed into Snapdragon flagship products including Snapdragon 8 Elite, Snapdragon 8 Elite Gen 5, and ongoing future products. This ECO solution has been widely adopted across Qualcomm, with at least 400 unique users and 5,000 runs executed during ECO tapeout seasons, making it an essential tool for both setup recovery and leakage recovery ECO cycles.</span>
+        </div><!--//item-->
+        <div class="item" style="margin-left:10px;">
+            <span class="project-title">Internal Analytic Solution</span> - <span class="project-tagline">Responsible for back-end LEF/DEF parsing binary tools and their maintenance to extract information from LEF/DEF physical data formats. Improved runtime by ~40% through proper integration of Si2 LEF/DEF C++ parsers with callback functions. Key features include routed metal segments flattening, bin-grid density mapping, PG-grid special nets metal flattening. This solution has been widely adopted across Qualcomm for various flows, with at least 1,000 unique users and 100,000 runs executed.</span>
+        </div><!--//item-->
         <div class="item" style="margin-left:10px;">
             <span class="project-title"><a href="https://github.com/The-OpenROAD-Project/RePlAce" target="_blank">RePlAce [c3][c4][j2]</a></span> - <span class="project-tagline">RePlAce is a global placement tool for spreading and placing standard cells by minimizing wire-length. RePlAce solves the electrostatic PDEs for density calculation, which is a core algorithm for spreading the standard cells. I've rewritten the whole RePlAce as clean C++11 code based on OpenDB, which means RePlAce now fully supports LEF/DEF commercial formats in fast. RePlAce has been verified with 7/12/14/28/45/65/130 nm technologies. Routability-driven and Timing-driven are implemented with OpenSTA and FastRoute APIs within OpenROAD. RePlAce is available as the 'global_placement' command in the OpenROAD flow.</span>
         </div><!--//item-->
